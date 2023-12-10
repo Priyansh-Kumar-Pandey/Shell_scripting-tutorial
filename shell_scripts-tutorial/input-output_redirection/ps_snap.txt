@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# this script will save the output of ps command.
+output_file=ps_logtxt
+
+while true
+do
+ps  >> $output_file
+echo "snapshot is taken at $(date)" >> $output_file
+sleep 5
+#this is because we dont want to crash our system as this loop will runs continously.
+done
+

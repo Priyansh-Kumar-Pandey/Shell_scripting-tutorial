@@ -1,0 +1,7 @@
+PING king.com (34.120.128.178) 56(84) bytes of data.
+64 bytes from 178.128.120.34.bc.googleusercontent.com (34.120.128.178): icmp_seq=1 ttl=128 time=30.5 ms
+64 bytes from 178.128.120.34.bc.googleusercontent.com (34.120.128.178): icmp_seq=2 ttl=128 time=32.0 ms
+
+--- king.com ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 30.495/31.238/31.981/0.743 ms
